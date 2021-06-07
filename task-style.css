@@ -1,0 +1,182 @@
+/* A Free Design by Bryant Smith (bryantsmith.com) */
+
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-size: 13px;
+	color: #061C37;
+	background:  url(background.png);
+	background-size: cover;
+	background-repeat:repeat-x;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;
+}
+
+#page
+{
+  display: flex; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 60%;
+}
+
+.topNaviagationLink
+{
+text-align:center;
+position:relative;
+margin-top:30px;
+font-size:16px;
+width:121px;
+height: 35px;
+line-height: 35px;
+float:left;
+color:#000000;
+}
+
+
+.topNaviagationLink a
+{
+text-decoration:none;
+color:#fff;
+margin-bottom:0px;
+border-bottom:dashed 1px;
+}
+
+.topNaviagationLink a:hover
+{
+text-align:center;
+color:#2a9ad8;
+display: block;
+width:121px;
+height: 35px;
+line-height: 35px;
+border-bottom:none;
+}
+
+#mainPicture
+{
+clear:both;
+width:60%;
+}
+
+#mainPicture .picture
+{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    top: 10px;
+    background-image: url(mainImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position:center;
+}
+
+#headerTitle
+{
+position:relative;
+text-align:left;
+top:14px;
+left:22px;
+font-size:27px;
+color:#FFFFFF;
+}
+
+#headerSubtext
+{
+position:relative;
+text-align:left;
+top:12px;
+left:22px;
+font-size:14px;
+color:#25060B;
+}
+
+.contentBox
+{
+margin-top:10px;
+width:60%;
+height:auto;
+padding-bottom:20px;
+}
+
+.contentBox .innerBox
+{
+	padding:15px;
+	top:10px;
+position:relative;
+height:auto;
+background-color:#FFFFFF;
+}
+
+h1
+{
+font-size:25px;
+margin-bottom:10px;
+padding-top:18px;
+margin-left:15px;
+margin-top:15px;
+color:#2a9ad8;
+}
+
+.contentText
+{
+font-size: 21px;
+    line-height: 33px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+a
+{
+color:#fff;
+text-decoration:none;
+}
+
+a:hover
+{
+color:#2a9ad8
+text-decoration:none;
+border-bottom:dotted 2px;
+}
+
+
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+
+table {
+    width: 100%;
+	font-size: 16px;
+	margin-top:40px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th{
+	background-color: #a0ccea;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+li{
+	padding:10px;
+}
+h2{
+	font-size: 20px;
+	margin:10px 0;
+}
+.beneftisPicture{
+	width:100%;
+	margin-top:10px;
+}
